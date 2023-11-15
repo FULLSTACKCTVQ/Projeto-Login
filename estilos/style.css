@@ -33,6 +33,9 @@ section#login {
     left: 50%;
     transform: translate(-50% -50%);
     overflow: hidden;
+    
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     background: #5f2c82 url(../imagens/Meu\ Amor.jpg) no-repeat;
